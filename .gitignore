@@ -1,0 +1,6 @@
+vmware_vm_data/
+.venv/
+__pycache__/
+*.vmx
+*.vmdk
+.env

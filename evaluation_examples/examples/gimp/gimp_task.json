@@ -1,0 +1,12 @@
+{
+  "id": "gimp_grayscale_conversion",
+  "instruction": "Convert the image photo.png to black and white, then export the grayscale image to the Desktop as gray_photo.png",
+  "config": {
+    "snapshot": "gimp",
+    "image": "osworld-gimp-sft"
+  },
+  "evaluation": {
+    "type": "file_exists",
+    "path": "/home/user/Desktop/gray_photo.png"
+  }
+}
